@@ -47,16 +47,16 @@ function debug(text){
  * referenced by the global variable, abm.
  * This function returns a boolean to avoid form submission via HTTP
 */
-function formSubmitted(evt) {
+function formSubmitted( ) {
     // YOUR CODE HERE
    /*  this works with  in the calling HTML file
       <!-- <form action="#" onsubmit="formSubmitted();"> 
    */
 
-    console.log("event object <*************************************")
-    console.log( evt )
-    console.log( evt.preventDefault )
-    console.log("event object <*************************************")
+//   console.log("event object <*************************************")
+//   console.log( evt )
+//   console.log( evt.preventDefault() )
+//   console.log("event object <*************************************")
 
     let nameTag = document.getElementById("name")
     let emailTag = document.getElementById("email")
