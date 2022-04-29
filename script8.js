@@ -51,9 +51,17 @@ function formSubmitted( ) {
     // YOUR CODE HERE
    /*  this works with  in the calling HTML file
       <!-- <form action="#" onsubmit="formSubmitted();"> 
-   */
+    
+      POSTED at 
 
-//   console.log("event object <*************************************")
+      https://githubmutt.github.io/pcc193-assign8/?#
+
+      */
+
+ 
+
+
+ //   console.log("event object <*************************************")
 //   console.log( evt )
 //   console.log( evt.preventDefault() )
 //   console.log("event object <*************************************")
